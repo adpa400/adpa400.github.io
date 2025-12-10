@@ -634,7 +634,7 @@ header {
 
 
      .logo3d {
-        margin: 300px 20px 30px 20px; 
+        margin: 150px 20px 30px 20px; 
     }
     
     .logo3d img {
@@ -695,7 +695,7 @@ header {
     .horario {
         width: 95%;
         max-width: 100%;
-        margin: 180px auto 20px; /* més baix per deixar espai al menú */
+        margin: 180px auto 20px; 
         font-size: 14px;
     }
 
