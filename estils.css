@@ -785,7 +785,7 @@ header {
      #navbarMenu.show {
         background-color: rgba(18, 18, 18, 0.95);
         backdrop-filter: blur(8px);
-        padding: 1rem 0; /* opcional para que los links respiren */
+        padding: 1rem 0; 
     }
 
 }
