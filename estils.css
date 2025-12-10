@@ -184,7 +184,7 @@ header {
 }
 
 
-section {
+.galeria {
     display: flex;
     width: 600px;
     height: 430px;
@@ -194,7 +194,7 @@ section {
     overflow: hidden;  
     margin-top: 10%;                
 }
-section img {
+.galeria img {
      width: 0px;
      flex-grow: 1;
      object-fit: cover;
@@ -202,7 +202,7 @@ section img {
      transition: .5s ease;
     
 }
-section img:hover {
+.galeria img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
