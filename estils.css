@@ -633,14 +633,24 @@ section img:hover {
     }
 
 
+     .logo3d {
+        margin: 80px 20px 30px 20px; 
+    }
+    
     .logo3d img {
         width: 90%;
+        max-width: 400px;
     }
-
+    
     .logo3d p {
         font-size: 1.4rem;
         text-align: center;
+        padding: 10px 20px;
+        margin-top: 20px;
+        width: 90%;
+        max-width: 350px;
     }
+
 
  
     section {
@@ -658,10 +668,12 @@ section img:hover {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+   
     }
 
     .videogym video {
         width: 100%;
+    
     }
 
     .videogym .texto {
@@ -769,4 +781,5 @@ section img:hover {
     .politica-privacidad p {
         font-size: 0.95rem;
     }
+
 }
