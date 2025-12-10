@@ -538,7 +538,69 @@ section img:hover {
     text-decoration: none;
 }
 
+.politica-privacidad {
+    max-width: 900px;       
+    margin: 120px auto 60px; 
+    padding: 30px;            
+    background-color: rgba(26, 26, 26, 0.95); 
+    color: #F5F2E9;           
+    border-radius: 12px;
+    border: 1px solid #D4AF37;
+    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.7;
+}
 
+
+.politica-privacidad h1 {
+    font-size: 2.2rem;
+    color: #FFD700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.politica-privacidad h2 {
+    font-size: 1.8rem;
+    color: #F4C75B;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.politica-privacidad h3 {
+    font-size: 1.5rem;
+    color: #FFC857;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.politica-privacidad h4 {
+    font-size: 1.3rem;
+    color: #FFD700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+.politica-privacidad p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #F5F2E9;
+}
+
+
+.politica-privacidad p::before {
+    content: "• "; 
+}
+
+
+.politica-privacidad a {
+    color: #D4AF37;
+    text-decoration: underline;
+}
+
+.politica-privacidad a:hover {
+    color: #FFC857;
+}
 
 
 
@@ -619,16 +681,36 @@ section img:hover {
 
  
     .horario {
-        width: 100%;
-        margin-left: 0;
+        width: 95%;
+        max-width: 100%;
+        margin: 180px auto 20px; /* més baix per deixar espai al menú */
         font-size: 14px;
-        margin-top: 60px;
     }
 
-    .horario th,
-    .horario td {
-        padding: 10px;
+    .horario caption {
+        font-size: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .horario th, .horario td {
+        padding: 12px;
         font-size: 14px;
+        text-align: center;
+    }
+
+    .horario tr:hover {
+        background-color: #D9A441;
+    }
+
+    .horario tr:hover td,
+    .horario tr:hover th {
+        color: #000000;
+    }
+
+    .horario-wrapper {
+        overflow-x: auto;
+        margin: 0 auto;
     }
 
 
@@ -661,5 +743,30 @@ section img:hover {
         margin-left: 0;
         margin-top: 10px;
         width: 80px;
+    }
+
+    .politica-privacidad {
+        margin: 100px 20px 40px;
+        padding: 20px;
+    }
+
+    .politica-privacidad h1 {
+        font-size: 1.8rem;
+    }
+
+    .politica-privacidad h2 {
+        font-size: 1.5rem;
+    }
+
+    .politica-privacidad h3 {
+        font-size: 1.3rem;
+    }
+
+    .politica-privacidad h4 {
+        font-size: 1.1rem;
+    }
+
+    .politica-privacidad p {
+        font-size: 0.95rem;
     }
 }
